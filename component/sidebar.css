@@ -1,0 +1,327 @@
+.sidebar {
+    position: sticky;
+    top: 20px;
+    border: 1px solid #403e2a;
+    max-height: max-content;
+    height: 100%;
+    margin-bottom: 0;
+    padding-top: 20px;
+    border-radius: var(--box-br);
+    background: #081925;
+    box-shadow: var(--box-bs);
+  }
+  
+  .show-btn1,
+  .show-btn2 {
+    display: none;
+  }
+  
+  
+  .avatar-box img {
+    width: 168px;
+    border-radius: 14px;
+  }
+  
+  
+  .separator {
+    width: 100%;
+    height: 1px;
+    background: #403e2a;
+  
+  }
+  
+  
+  .my-info {
+    width: 279px;
+    padding: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .more-info {
+    padding-top: 0;
+    gap: 30px;
+    opacity: 1;
+  }
+  
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .name {
+    font-size: 26px;
+    margin: 8px 0px;
+  }
+  
+  .passion {
+    width: 70%;
+    font-size: 15px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 50px;
+    background: rgba(0, 31, 51, .9);
+    border: 1px solid #403e2a;
+    /* box-shadow: inset -6px -6px 12px #999090, inset 6px 6px 12px #e2d8d8; */
+    color: #869ba9;
+  }
+  
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  
+  .contact-item {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .icon-box {
+    position: relative;
+    width: 42px;
+    height: 45px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 6px;
+    background: rgba(0, 31, 51, .9);
+    border: 1px solid #403e2a;
+    /* box-shadow: inset -6px -6px 12px #999090, inset 6px 6px 12px #e2d8d8; */
+    color: #869ba9;
+  }
+  
+  .contact-title {
+    font-size: 14px;
+  }
+  
+  .info-link {
+    font-size: 12px;
+    color: white;
+  }
+  
+  .social-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-link {
+    color: #869ba9;
+  }
+  
+  /* for tab */
+  
+  @media only screen and (max-width: 1285px) {
+    .main-box {
+      margin-top: 0px;
+      gap: 83px;
+      flex-direction: column;
+    }
+  
+    .content {
+      top: 12px;
+    }
+  
+    .show-btn1 {
+      display: flex;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width: 179px;
+      height: 50px;
+      z-index: 1;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0, 31, 51, .9);
+    border: 1px solid #403e2a;
+    /* box-shadow: inset -6px -6px 12px #999090, inset 6px 6px 12px #e2d8d8; */
+    color: #869ba9;
+      box-shadow: inset -6px -6px 12px #1a1a1a, inset 6px 6px 12px #383838
+    }
+  
+   
+  
+    .sidebar {
+      position: relative;
+      padding-top: 0;
+      height: 220px;
+      overflow: hidden;
+    }
+  
+    .slideDown {
+      animation: slideDown 1s forwards;
+    }
+  
+    .slideUp {
+      animation: slideUp 1s forwards;
+    }
+  
+    @keyframes slideDown {
+      from {
+        height: 220px;
+      }
+  
+      to {
+        height: 551px;
+      }
+    }
+  
+    @keyframes slideUp {
+      from {
+  
+        height: 551px;
+      }
+  
+      to {
+  
+        height: 220px;
+      }
+    }
+  
+    .my-info {
+      width: 100%;
+      display: flex;
+      gap: 36px;
+    }
+  
+    .passion {
+      margin: unset;
+    }
+  
+    .info {
+      flex-direction: row;
+    }
+  
+    .info-wrapper {
+      flex-direction: row;
+    }
+  
+    .contacts-list {
+      width: 100%;
+    }
+  
+    .contact-item {
+      width: 85vw;
+    }
+  
+    .icon-box {
+      width: 60px;
+      height: 60px;
+      font-size: 26px;
+    }
+  
+    .contact-title {
+      font-size: 19px;
+    }
+  
+    .info-link {
+      font-size: 15px;
+    }
+  
+    .navbar {
+      width: 417px;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .info-wrapper {
+      flex-direction: column;
+    }
+  
+    @keyframes slideDown {
+      from {
+        height: 220px;
+      }
+  
+      to {
+        height: 690px;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 532px) {
+    .sidebar {
+      height: 44vw;
+  }
+    .show-btn1 {
+      display: none;
+    }
+  
+    .show-btn2 {
+      display: flex;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width: 11vw;
+      height: 9vw;
+      z-index: 1;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0, 31, 51, .9);
+      border: 1px solid #403e2a;
+      /* box-shadow: inset -6px -6px 12px #999090, inset 6px 6px 12px #e2d8d8; */
+      color: #869ba9;
+      /* box-shadow: inset 30px 30px 59px #191919, inset -30px -30px 59px #393939; */
+    }
+  
+   
+  
+    .avatar-box img {
+      width: 36vw;
+    }
+  
+    .passion {
+      width: 100%;
+      font-size: 2.5vw;
+    }
+  
+    .name {
+      font-size: 4vw;
+    }
+  
+    @keyframes slideUp {
+      from {
+  
+        height: 551px;
+      }
+  
+      to {
+  
+        height: 44vw;
+      }
+    }
+  
+    .info {
+      padding: 20px;
+      padding-bottom: 44px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+  
+    .contact-title {
+      font-size: 4.5vw;
+    }
+  
+    .info-link {
+      font-size: 3.5vw;
+    }
+  
+    .icon-box {
+      width: 16vw;
+      height: 16vw;
+    }
+  }
