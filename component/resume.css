@@ -1,0 +1,112 @@
+h4{
+    color: white;
+}
+.title-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.line{
+    background: transparent;
+    display: flex;
+    gap: 43px;
+    width: 100%;
+    min-height: 277px;
+}
+.real-line{
+    width: 1px;
+    margin-left: 20px;
+    background: #869ba9;
+}
+
+
+.timeline-list{
+    display: flex;
+    margin-top: 13px;
+    flex-direction: column;
+    gap: 15px;
+}
+.timeline-item span{
+    color: #869ba9;
+}
+
+.timeline-item::before{
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -16px;
+    right: 47px;
+    width: 8px;
+    height: 8px;
+    background: #869ba9;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--jet);
+}
+
+.resume-btn{
+    text-decoration: none;
+    margin: 40px 0;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 39px;
+    background: rgba(0, 31, 51, .9);
+    border: 1px solid #403e2a;
+    /* box-shadow: inset -6px -6px 12px #999090, inset 6px 6px 12px #e2d8d8; */
+    color: white;
+}
+
+.resume-btn:hover{
+    background: #1c1b1b;
+    box-shadow: inset -6px -6px 12px rgba(0, 31, 51, .9), inset 6px 6px 12px  rgba(0, 31, 51, .9);
+    >a{
+        color: hsl(191, 63%, 20%);
+    }
+}
+
+.skills{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+    margin: 12px;
+}
+.skill-item{
+    color: white;
+    width: 25vw;
+    position: relative;
+    left: 7vw;
+}
+.skill-item::before{
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -16px;
+    right: 48px;
+    width: 8px;
+    height: 8px;
+    background: #869ba9;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--jet);
+}
+
+@media only screen and (max-width: 1285px) {
+    .real-line{
+        margin-left: 30px;
+      }
+}
+@media only screen and (max-width: 532px) {
+    .skills {
+        width: 80vw;
+        justify-content: space-between;
+    }
+    .skill-item {
+        width: 133px;
+    }
+}
+@media only screen and (max-width: 776px) {
+.skill-item::before{
+    right: 32px;
+}
+}

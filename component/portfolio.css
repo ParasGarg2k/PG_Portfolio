@@ -1,0 +1,126 @@
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.card {
+    width: 312px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 13px;
+    animation: sacleUp 0.5s ease-out;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.para{
+    padding-left: 21px;
+    margin: 8px 0px;
+}
+@keyframes sacleUp {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.img-wrapper{
+    border-radius: 20px;
+    width: 270px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img {
+    border-radius: 20px;
+    width: 270px;
+    height: 200px;
+    border: 1px solid #3d3c3c;
+}
+
+.card-img-hover {
+    display: none;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 271px;
+    opacity: 1;
+    border-radius: 20px;
+    height: 200px;
+    background: #00000052;
+}
+
+.card-title {
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.card-text {
+    margin-left: 10px;
+}
+
+.click-icon {
+    color: hsl(45deg 73.63% 65.26%);
+    font-size: 21px;
+    padding: 12px;
+    border-radius: 12px;
+    background: #292929;
+    box-shadow: inset -6px -6px 12px #1a1a1a,
+        inset 6px 6px 12px #383838;
+}
+
+.click-icon:hover {
+    display: flex;
+    background: #1c1b1b;
+    box-shadow: inset -6px -6px 12px #1a1a1a, inset 6px 6px 12px #383838;
+}
+
+/* .card:hover .card-img{
+    scale: 1.1;
+} */
+.card:hover .card-img-hover {
+    display: flex;
+    animation: appear 0.3s ease-in-out;
+}
+
+.img-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 482px) {
+
+    
+    .card-title {
+        font-size: 4vw;
+    }
+}
+@media only screen and (max-width: 358px) {
+    .card {
+        width: 100vw;
+        padding: 13px 0px;
+    }
+    .card-img-hover{
+    width: 77vw;
+    }
+    .img-wrapper{
+    width: 77vw;
+    }
+}
