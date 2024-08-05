@@ -1,0 +1,69 @@
+{
+    "projects":[
+        
+        {
+            "name":"Ecommerce",
+            "description":"Tech Stack: Node, Express, Mongodb, Cloudinary, Material UI, React, javaScript, HTML, CSS",
+            "imgLink": "https://res.cloudinary.com/ddxwcwxhl/image/upload/v1720207563/samples/landscapes/rrbqsphqbfyysi3yfqtf.png",
+            "gitHubLink": "https://github.com/roushan-code/Mern-Stack-Ecommerce-with-Redux",
+            "previewLink": ""
+        },
+        {
+            "name":"Friendgram",
+            "description":"Tech Stack:Node, Express, Mongodb, Cloudinary, Material UI, React, javaScript, HTML, CSS",
+            "imgLink": "https://th.bing.com/th/id/OIP.LlXlAf7yrjDH7lWjGx-xyQHaFj?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "gitHubLink": "",
+            "previewLink": ""
+        },
+        {
+            "name":"GameZone",
+            "description":"Tech Stack: JavaScript, HTML, CSS",
+            "imgLink": "../assets/projects/game.png",
+            "gitHubLink": "https://github.com/ParasGarg2k/GameZone",
+            "previewLink": "https://parasgarg2k.github.io/GameZone/"
+        },
+        {
+            "name":"My Portfolio",
+            "description":"Tech Stack: ReactJS, GSAP, HTML, CSS, emailjs",
+            "imgLink": "../assets/projects/My-portfolio.png",
+            "gitHubLink": "",
+            "previewLink": ""
+        },
+        {
+            "name":"Currency Convertor",
+            "description":"Tech Stack: React, JavaScript, HTML, CSS, API use",
+            "imgLink": "https://th.bing.com/th/id/OIP.h3ozbLfcR1oTkctXDUXkeAHaFD?w=236&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "gitHubLink": "https://github.com/ParasGarg2k/currency_convertor",
+            "previewLink": "https://github.com/ParasGarg2k/currency_convertor"
+        },
+        {
+            "name":"Blog app",
+            "description":"Tech Stack:  React, JavaScript, HTML, CSS",
+            "imgLink": "https://th.bing.com/th/id/OIP.z9I5vgs3Lo0JykQZ1z4eKwHaEK?w=307&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "gitHubLink": "",
+            "previewLink": ""
+        },
+        {
+            "name":"Todo list",
+            "description":"Tech Stack: HTML, CSS, JavaScript, ReactJS ",
+            "imgLink": "https://th.bing.com/th/id/OIP.Xk7FGckJCmugF3Obn3qGUAHaEE?w=319&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "gitHubLink": "https://github.com/ParasGarg2k/todo_list",
+            "previewLink": "https://github.com/ParasGarg2k/todo_list"
+        },
+        {
+            "name":"Password Generator",
+            "description":"Tech Stack: React, JavaScript,  HTML, CSS",
+            "imgLink": "https://1.bp.blogspot.com/-tx7nfp4dVuE/YQAsplWEkxI/AAAAAAAABGE/Jup3qkIiDfg1IMZHxCZpAutoAqPLj6ZOwCLcBGAsYHQ/w1600/Screenshot%2B%2528190%2529%2B%25286%2529.jpg",
+            "gitHubLink": "https://github.com/ParasGarg2k/password_generator",
+            "previewLink": "https://github.com/ParasGarg2k/password_generator"
+        },
+        {
+            "name":"Password Generator",
+            "description":"Tech Stack: React, javaScript, API use,  HTML, CSS ",
+            "imgLink": "https://1.bp.blogspot.com/-tx7nfp4dVuE/YQAsplWEkxI/AAAAAAAABGE/Jup3qkIiDfg1IMZHxCZpAutoAqPLj6ZOwCLcBGAsYHQ/w1600/Screenshot%2B%2528190%2529%2B%25286%2529.jpg",
+            "gitHubLink": "https://github.com/ParasGarg2k/password_generator",
+            "previewLink": "https://github.com/ParasGarg2k/password_generator"
+        }
+       
+    ]
+}

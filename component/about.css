@@ -1,0 +1,383 @@
+.content {
+    width: 100%;
+    height: max-content;
+    padding: 0 25px;
+    position: relative;
+    bottom: 34px;
+  }
+  
+  /* Section 1 */
+  
+  .my-box {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: space-between;
+  }
+  
+  .heading {
+    font-size: 34px;
+    /* color: var(--orange-yellow-crayola); */
+    color: white;
+  }
+  
+  .heading::after {
+    content: "";
+    margin: 15px 0;
+    display: block;
+    border-radius: 30px;
+    width: 40px;
+    height: 5px;
+    background-color: #1ba098;
+  }
+  
+  .text-box {
+    height: 170px;
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 6px;
+    flex-direction: column;
+  }
+  
+  .hi {
+    font-size: 15px;
+  }
+  
+  .wrapper {
+    height: 40px;
+    display: flex;
+    width: 100%;
+  }
+  
+  .me {
+    font-size: 30px;
+  }
+  
+  .dynamic-text {
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .dynamic-text li {
+    list-style: none;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    animation: slide 6s steps(2) infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      top: 0%;
+    }
+  
+    100% {
+      top: -93px;
+    }
+  }
+  
+  .dynamic-text li span {
+    position: relative;
+    color: #1ba098;
+  }
+  
+  .dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #1ba098;
+    animation: typing 1.5s steps(20) infinite alternate;
+  }
+  
+  @keyframes typing {
+    from {
+      left: 0%;
+    }
+  
+    to {
+      left: 110%;
+    }
+  }
+  
+  .avatar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 27px;
+    right: 100px;
+  }
+  
+  .my-img {
+    display: block;
+    width: 150px;
+    height: 93%;
+    filter: drop-shadow(2px 3px 5px rgb(50, 50, 50));
+  }
+  
+  .about-box1 {
+    margin: 14px 0;
+    
+  }
+  .contentitems{
+    display: flex;
+  }
+  
+  .content1 {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    border-radius: 13px;
+    padding: 15px;
+    width: 50%;
+    border: 1px solid #403e2a;
+    background: rgba(0, 31, 51, .9);
+    /* background:#deb992; */
+    /* box-shadow: inset -6px -6px 12px #1a1a1a, inset 6px 6px 12px #383838; */
+    color: #1ba098;
+  }
+  
+  .content1-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .texth {
+    font-size: 23px;
+  }
+  .p1{
+    font-size: 15px;
+  }
+  
+  .textp {
+    font-size: 15px;
+  }
+  
+  .tech-knowledge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 22px 0;
+  }
+  
+  .Tech-buttons {
+    width: 500px;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px;
+    background: rgba(0, 31, 51, .9);
+    border: 1px solid #403e2a;
+    justify-content: space-around;
+    /* border-radius: 51px;
+    background: #222a2b;
+    box-shadow: inset -11px -11px 22px #131819,
+                inset 11px 11px 22px #313c3d; */
+  }
+  
+  .tech-btn {
+    padding: 8px;
+    color: #b7aca2;
+    border-radius: 6px;
+  }
+  
+  .btn-background {
+    background:#0a1217;
+    color:#769db8;
+    /* box-shadow: 11px 11px 13px #d3dade,
+      -14px -2px 13px #939a9f; */
+  }
+  
+  .techStack-icons {
+    max-width: 66%;
+  }
+  
+  .skill-box {
+    width: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skill-icon {
+    width: 75px;
+    height: 72px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .skill-h {
+    font-size: 14px;
+  }
+  
+  .techbox {
+    display: none;
+    gap: 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .enable-icon {
+    display: flex;
+  }
+  
+  @media only screen and (max-width: 1285px) {
+    .heading {
+      font-size: 34px;
+    }
+  
+    .hi {
+      font-size: 20px;
+    }
+  
+    .me {
+      font-size: 36px;
+    }
+  
+    .dynamic-text {
+      height: 54px;
+    }
+  
+    .dynamic-text li {
+      font-size: 34.5px;
+    }
+  
+    .p1 {
+      font-size: 18px;
+    }
+    
+    .content1 {
+      width: 495px;
+    }
+  
+    .img1 {
+      width: 46px
+    }
+  
+    .texth {
+      font-size: 26px;
+    }
+  
+    .textp {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (max-width: 1054px) {
+    .content {
+      padding: 0 15px;
+    }
+   
+    .my-info {
+      padding: 21px 16px;
+      
+  }
+    .my-box {
+      flex-direction: column-reverse;
+      gap: 0vw;
+      }
+      .avatar {
+          /* left: 0px;
+          bottom: 0px;
+          justify-content: flex-start; */
+          top: 38px;
+          width: 150px;
+          height: 164px;
+          position: absolute;
+      }
+  }
+  
+  @media only screen and (max-width: 794px) {
+    .heading{
+      font-size: 32px;
+    }
+    .hi {
+      font-size: 17px;
+  }
+    .avatar{
+      display: none;
+    }
+    .content1 {
+      width: 100%;
+  }
+  .contentitems{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .me {
+    font-size: 5vw;
+  }
+  .dynamic-text {
+    height: 8vw;
+  }
+  .dynamic-text li {
+    font-size: 4.65vw;
+  }
+  .dynamic-text li {
+    animation: slide 6s steps(2) infinite;
+  }
+  .techStack-icons {
+    max-width: 90%;
+  }
+  
+  @keyframes slide {
+    0% {
+      top: 0%;
+    }
+  
+    100% {
+      top: -13.6vw;
+    }
+  }
+  
+  .Tech-buttons {
+    max-width: 75vw;
+    gap: 0vw;
+  }
+  
+  }
+  @media only screen and (max-width: 482px) {
+    .text-box {
+      height: max-content;
+    }
+    .texth {
+      font-size: 5vw;
+  }
+    .dynamic-text {
+      height: 5vw;
+      margin-top: 1vw;
+  }
+  .p1 {
+    font-size: 3.5vw;
+  }
+  .textp {
+    font-size: 3.5vw;
+  }
+  .dynamic-text li {
+    font-size: 3.7vw;
+  }
+    .dynamic-text li {
+      animation: slide 6s steps(2) infinite;
+    }
+    
+    @keyframes slide {
+      0% {
+        top: 0vw;
+    }
+    100% {
+        top: -11.4vw;
+    }
+    }
+  
+    .techStack-icons {
+      min-width: 100%;
+  }
+  .tech-btn {
+    font-size: 3.5vw;
+  }
+  
+  }
