@@ -1,0 +1,153 @@
+:root {
+  /* background */
+  /* --box-bg: #292929; */
+  --box-bg: #081925;
+
+  /* border-radius */
+  /* --box-br: 21px; */
+  --box-br: 21px;
+
+  /* box-shadow */
+  /* --box-bs: -27px 27px 53px #131313, 
+  27px -27px 53px #3f3f3f;*/
+  --box-bs: -27px 27px 53px #122b3c, 7px -27px 53px #032238;
+
+}
+
+.main-box {
+  max-width: 95vw;
+  margin-inline: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+  /* border: 2px solid red; */
+}
+
+.container-box {
+  width: 100%;
+  max-height: max-content;
+  border: 1px solid #0f0c24;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  border-radius: var(--box-br);
+  background: var(--box-bg);
+  box-shadow: var(--box-bs);
+  animation: fade 1s ease backwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  padding: 16px;
+  border-bottom-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border: 0.5px solid #3d3c3c;
+  width: 315px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 37px;
+  font-size: 15px;
+}
+
+.navbar-link {
+  color: #1ba098;
+  font-weight: 600;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-link:hover {
+  color: #1a5087;
+}
+
+.activate {
+  color:#16a5d0;
+}
+
+.bottom-navbar {
+  display: none;
+}
+
+/* nav modification */
+
+@media only screen and (max-width: 1054px) {
+  .main-box {
+    margin-bottom: 100px;
+  }
+  .nav {
+    display: none;
+  }
+
+  .content {
+    padding: 0 15px;
+    padding-bottom: 30px;
+    top: 20px;
+  }
+  
+
+  .bottom-navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    background: #23222285;
+    backdrop-filter: blur(10px);
+    box-shadow: -29px 27px 53px #000000, 29px -6px 64px #0e0e0e;
+    z-index: 10;
+  }
+
+  .bottom-navbar-link {
+    color: #1ba098;
+    font-weight: 600;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+  }
+  .navbar-link:hover {
+    color: #1a5087;
+  }
+  
+  .activate {
+    color:#16a5d0;
+  }
+  
+
+}
+
+@media only screen and (max-width: 776px) {
+  .main-box {
+    max-width: 95vw;
+    }
+}
+
+@media only screen and (max-width: 482px) {
+.bottom-navbar-link {
+  padding: 14px;
+  font-size: 3vw;
+}
+}
