@@ -18,14 +18,14 @@
         {
             "name":"GameZone",
             "description":"Tech Stack: JavaScript, HTML, CSS",
-            "imgLink": "../assets/projects/game.png",
+            "imgLink": "https://drive.google.com/file/d/1hEDBlOi7N_7BiLyzGRx5AEB_9yvRkX4F/view?usp=drive_link",
             "gitHubLink": "https://github.com/ParasGarg2k/GameZone",
             "previewLink": "https://parasgarg2k.github.io/GameZone/"
         },
         {
             "name":"My Portfolio",
             "description":"Tech Stack: ReactJS, GSAP, HTML, CSS",
-            "imgLink": "../assets/projects/My-portfolio.png",
+            "imgLink": "https://drive.google.com/file/d/1lh9lE5EL7Adq2Z1kCDOTh_mi1ypjqpnX/view?usp=drive_link",
             "gitHubLink": "https://github.com/ParasGarg2k/PG_Portfolio",
             "previewLink": "https://github.com/ParasGarg2k/PG_Portfolio"
         },
