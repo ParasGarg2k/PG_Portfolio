@@ -84,20 +84,22 @@ const Resume = () => {
                             </li>
                         </ol>
                     </div>
-                    <button className='resume-btn' ><a href="https://drive.google.com/file/d/1278sUGuUuD4u5JUjJrBKEd-QU1SVZdyr/view?usp=sharing"><p>Resume</p></a></button>
+                    <button className='resume-btn' ><a href="https://drive.google.com/file/d/1hrPsH2SCPAdpmK_OjyYre4Q6sBUks2wi/view?usp=drive_link"><p>Resume</p></a></button>
                     <h1 >My Skills</h1>
 
                     <div className='skills'>
                         <li className='skill-item'>JavaScript</li>
-                        <li className='skill-item'>ReactJs</li>
+                        <li className='skill-item'>ReactJS</li>
                         <li className='skill-item'>HTML</li>
                         <li className='skill-item'>CSS</li>
                         <li className='skill-item'>Bootstrap</li>
                         <li className='skill-item'>TailwindCss</li>
-                        <li className='skill-item'>Node Js</li>
-                        <li className='skill-item'>Express.Js</li>
+                        <li className='skill-item'>NodeJS</li>
+                        <li className='skill-item'>ExpressJS</li>
                         <li className='skill-item'>Mongodb</li>
                         <li className='skill-item'>Redux</li>
+                        <li className='skill-item'>TypeScript</li>
+                        <li className='skill-item'>NextJS</li>
                     </div>
 
                     <div className='skills'>
@@ -105,6 +107,12 @@ const Resume = () => {
                         <li className='skill-item'>C++</li>
                         <li className='skill-item'>Java</li>
                         <li className='skill-item'>Python</li>
+                        <li className='skill-item'>SQL</li>
+                        <li className='skill-item'>R</li>
+                        <li className='skill-item'>Machine Learning</li>
+                        <li className='skill-item'>Deep Learning</li>
+                        <li className='skill-item'>NLP</li>
+                        <li className='skill-item'>Computer Vision</li>
                     </div>
 
                 </section>

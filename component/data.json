@@ -1,19 +1,61 @@
 {
     "projects":[
+        {
+            "name":"Urban Sound Classification",
+            "description":"Tech Stack: Python, Librosa, TensorFlow, Keras, Scikit-learn, UrbanSound8K Dataset.",
+            "imgLink": "https://repository-images.githubusercontent.com/280459103/9bfd75e0-725e-46af-8075-443f74f2757a",
+            "gitHubLink": "https://github.com/ParasGarg2k/Urban_Sound_Classification",
+            "previewLink": "https://github.com/ParasGarg2k/Urban_Sound_Classification"
+        },
+        {
+            "name":"RentACar",
+            "description":"Tech Stack: Node, Express, Mongodb, Cloudinary, Material UI, EJS, javaScript, HTML, CSS",
+            "imgLink": "https://www.rentallscript.com/resources/content/images/2023/02/Car-Rental-App.png",
+            "gitHubLink": "https://github.com/ParasGarg2k/RentACar",
+            "previewLink": "https://github.com/ParasGarg2k/RentACar"
+        },
+        {
+            "name":"Sign Language to text conversion",
+            "description":"Tech Stack: Python, OpenCV, TensorFlow, Keras, Mediapipe, LSTM.",
+            "imgLink": "https://www.lingvano.com/asl/wp-content/uploads/sites/3/2022/12/alphabet-blog.png",
+            "gitHubLink": "https://github.com/ParasGarg2k/SignLanguageToText",
+            "previewLink": "https://github.com/ParasGarg2k/SignLanguageToText"
+        },
+        {
+            "name":"Face Recognition System",
+            "description":"Tech Stack: Python, OpenCV, TensorFlow, Keras, Mediapipe, ResNet.",
+            "imgLink": "https://facts.net/wp-content/uploads/2024/06/17-facts-about-image-classification-models-1718251729.jpg",
+            "gitHubLink": "https://github.com/ParasGarg2k/FaceRecognitionSystem",
+            "previewLink": "https://github.com/ParasGarg2k/FaceRecognitionSystem"
+        },
         
         {
-            "name":"Ecommerce",
+            "name":"BookStore",
             "description":"Tech Stack: Node, Express, Mongodb, Cloudinary, Material UI, React, javaScript, HTML, CSS",
             "imgLink": "https://res.cloudinary.com/ddxwcwxhl/image/upload/v1720207563/samples/landscapes/rrbqsphqbfyysi3yfqtf.png",
-            "gitHubLink": "https://github.com/roushan-code/Mern-Stack-Ecommerce-with-Redux",
-            "previewLink": ""
+            "gitHubLink": "https://github.com/ParasGarg2k/Book-Store",
+            "previewLink": "https://github.com/ParasGarg2k/Book-Store"
         },
         {
             "name":"Friendgram",
             "description":"Tech Stack:Node, Express, Mongodb, Cloudinary, Material UI, React, javaScript, HTML, CSS",
             "imgLink": "https://th.bing.com/th/id/OIP.LlXlAf7yrjDH7lWjGx-xyQHaFj?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-            "gitHubLink": "",
-            "previewLink": ""
+            "gitHubLink": "https://github.com/ParasGarg2k/FriendGram",
+            "previewLink": "https://github.com/ParasGarg2k/FriendGram"
+        },
+        {
+            "name":"Olympic Analysis Tool",
+            "description":"Tech Stack: Python, HTML, CSS, Streamlit, Flask.",
+            "imgLink": "https://repository-images.githubusercontent.com/533175161/acdf2208-199b-4346-abf3-3544dfc8ed29",
+            "gitHubLink": "https://github.com/ParasGarg2k/Olympics_analysis",
+            "previewLink": "https://github.com/ParasGarg2k/Olympics_analysis"
+        },
+        {
+            "name":"Book Recommendation System",
+            "description":"Tech Stack: Python, HTML, CSS, Streamlit, Flask.",
+            "imgLink": "https://www.muvi.com/wp-content/uploads/2021/06/Book-Recommendation-Engine.jpg",
+            "gitHubLink": "https://github.com/ParasGarg2k/Book_rec",
+            "previewLink": "https://github.com/ParasGarg2k/Book_rec"
         },
         {
             "name":"GameZone",
@@ -26,8 +68,8 @@
             "name":"My Portfolio",
             "description":"Tech Stack: ReactJS, GSAP, HTML, CSS, emailjs",
             "imgLink": "../assets/projects/My-portfolio.png",
-            "gitHubLink": "",
-            "previewLink": ""
+            "gitHubLink": "https://github.com/ParasGarg2k/PG_Portfolio",
+            "previewLink": "pg-portfolio-zeta.vercel.app"
         },
         {
             "name":"Currency Convertor",
@@ -40,8 +82,8 @@
             "name":"Blog app",
             "description":"Tech Stack:  React, JavaScript, HTML, CSS",
             "imgLink": "https://th.bing.com/th/id/OIP.z9I5vgs3Lo0JykQZ1z4eKwHaEK?w=307&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-            "gitHubLink": "",
-            "previewLink": ""
+            "gitHubLink": "https://github.com/ParasGarg2k/Blog_backend",
+            "previewLink": "https://github.com/ParasGarg2k/Blog_backend"
         },
         {
             "name":"Todo list",
@@ -56,14 +98,6 @@
             "imgLink": "https://1.bp.blogspot.com/-tx7nfp4dVuE/YQAsplWEkxI/AAAAAAAABGE/Jup3qkIiDfg1IMZHxCZpAutoAqPLj6ZOwCLcBGAsYHQ/w1600/Screenshot%2B%2528190%2529%2B%25286%2529.jpg",
             "gitHubLink": "https://github.com/ParasGarg2k/password_generator",
             "previewLink": "https://github.com/ParasGarg2k/password_generator"
-        },
-        {
-            "name":"Password Generator",
-            "description":"Tech Stack: React, javaScript, API use,  HTML, CSS ",
-            "imgLink": "https://1.bp.blogspot.com/-tx7nfp4dVuE/YQAsplWEkxI/AAAAAAAABGE/Jup3qkIiDfg1IMZHxCZpAutoAqPLj6ZOwCLcBGAsYHQ/w1600/Screenshot%2B%2528190%2529%2B%25286%2529.jpg",
-            "gitHubLink": "https://github.com/ParasGarg2k/password_generator",
-            "previewLink": "https://github.com/ParasGarg2k/password_generator"
-        }
-       
+        }       
     ]
 }

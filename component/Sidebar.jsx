@@ -33,7 +33,7 @@ const Sidebar = () => {
         </div>
         <div className="intro">
           <h1 className="name">Paras Garg</h1>
-          <p className="passion">Web Developer</p>
+          <p className="passion">Developer</p>
         </div>
       </div>
 
@@ -65,8 +65,8 @@ const Sidebar = () => {
               <div className="contact-info">
                 <p className="contact-title">Phone</p>
 
-                <a href="tel:+919815364574" className="info-link">
-                  +91 9815364574
+                <a href="tel:+919041594574" className="info-link">
+                  +91 9041594574
                 </a>
               </div>
             </li>

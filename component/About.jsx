@@ -96,8 +96,8 @@ const About = () => {
                   <div className='wrapper'>
                     <h1 className='me' id="text">I'm into &nbsp; </h1>
                     <ul className="dynamic-text">
-                      <li><span> Frontend Development</span></li>
-                      <li><span> Backend Development</span></li>
+                      <li><span> Full Stack Development</span></li>
+                      <li><span> Machine Learning and AI</span></li>
                     </ul>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ const About = () => {
             </div>
 
             <div className='my-lines'>
-              <p className='p1 para-animation'>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way.</p>
+              <p className='p1 para-animation'>My job is to build your website so that it is functional and user-friendly, while also being visually attractive. I combine clean design with seamless usability, ensuring that your product is both eye-catching and intuitive. Moreover, I add a personal touch to every project to reflect your unique identity and message in the most creative way. Leveraging the power of Machine Learning and Artificial Intelligence, I integrate smart features that enhance user experience, personalize content, and drive meaningful interactions—making your website not just a platform, but an intelligent digital experience.</p>
             </div>
 
             <div className="about-box1">
@@ -123,7 +123,7 @@ const About = () => {
                 </div>
                 <div className="content1-text">
                   <h1 className='texth' id="text">Web Development</h1>
-                  <p className='textp para-animation'>High-quality development of sites at the professional level.</p>
+                  <p className='textp para-animation'>High-quality development of websites at the professional level.</p>
                 </div>
               </div>
               <div className='content1'>
@@ -133,6 +133,15 @@ const About = () => {
                 <div className="content1-text">
                   <h1 className='texth' id="text">Data Structure and Algorithms</h1>
                   <p className='textp para-animation'>Transforming complex challenges into elegant solutions.</p>
+                </div>
+              </div>
+              <div className='content1'>
+                <div className="icons">
+                  <img className='img1' src={firstIcon} alt="" />
+                </div>
+                <div className="content1-text">
+                  <h1 className='texth' id="text">Machine Learning</h1>
+                  <p className='textp para-animation'>High-quality implementation of Machine Learning and AI solutions at a professional level.</p>
                 </div>
               </div>
               </div>
