@@ -44,32 +44,18 @@
             "previewLink": "https://github.com/ParasGarg2k/FriendGram"
         },
         {
-            "name":"Olympic Analysis Tool",
-            "description":"Tech Stack: Python, HTML, CSS, Streamlit, Flask.",
-            "imgLink": "https://repository-images.githubusercontent.com/533175161/acdf2208-199b-4346-abf3-3544dfc8ed29",
-            "gitHubLink": "https://github.com/ParasGarg2k/Olympics_analysis",
-            "previewLink": "https://github.com/ParasGarg2k/Olympics_analysis"
-        },
-        {
-            "name":"Book Recommendation System",
-            "description":"Tech Stack: Python, HTML, CSS, Streamlit, Flask.",
-            "imgLink": "https://www.muvi.com/wp-content/uploads/2021/06/Book-Recommendation-Engine.jpg",
-            "gitHubLink": "https://github.com/ParasGarg2k/Book_rec",
-            "previewLink": "https://github.com/ParasGarg2k/Book_rec"
-        },
-        {
             "name":"GameZone",
             "description":"Tech Stack: JavaScript, HTML, CSS",
-            "imgLink": "../assets/projects/game.png",
+            "imgLink": "https://th.bing.com/th/id/OIP.OJwDcpPnXZtSx1Ln0JVnxgHaHa?rs=1&pid=ImgDetMain",
             "gitHubLink": "https://github.com/ParasGarg2k/GameZone",
             "previewLink": "https://parasgarg2k.github.io/GameZone/"
         },
         {
             "name":"My Portfolio",
-            "description":"Tech Stack: ReactJS, GSAP, HTML, CSS, emailjs",
-            "imgLink": "../assets/projects/My-portfolio.png",
+            "description":"Tech Stack: ReactJS, GSAP, HTML, CSS",
+            "imgLink": "https://th.bing.com/th/id/OIP.iV7wWNX_KbOGz0nuFhfHowHaEB?w=284&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
             "gitHubLink": "https://github.com/ParasGarg2k/PG_Portfolio",
-            "previewLink": "pg-portfolio-zeta.vercel.app"
+            "previewLink": "https://github.com/ParasGarg2k/PG_Portfolio"
         },
         {
             "name":"Currency Convertor",
@@ -79,11 +65,11 @@
             "previewLink": "https://github.com/ParasGarg2k/currency_convertor"
         },
         {
-            "name":"Blog app",
+            "name":"Appwrite-Blog",
             "description":"Tech Stack:  React, JavaScript, HTML, CSS",
             "imgLink": "https://th.bing.com/th/id/OIP.z9I5vgs3Lo0JykQZ1z4eKwHaEK?w=307&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-            "gitHubLink": "https://github.com/ParasGarg2k/Blog_backend",
-            "previewLink": "https://github.com/ParasGarg2k/Blog_backend"
+            "gitHubLink": "https://github.com/ParasGarg2k/Appwrite-blog",
+            "previewLink": "https://github.com/ParasGarg2k/Appwrite-blog"
         },
         {
             "name":"Todo list",
@@ -98,6 +84,14 @@
             "imgLink": "https://1.bp.blogspot.com/-tx7nfp4dVuE/YQAsplWEkxI/AAAAAAAABGE/Jup3qkIiDfg1IMZHxCZpAutoAqPLj6ZOwCLcBGAsYHQ/w1600/Screenshot%2B%2528190%2529%2B%25286%2529.jpg",
             "gitHubLink": "https://github.com/ParasGarg2k/password_generator",
             "previewLink": "https://github.com/ParasGarg2k/password_generator"
-        }       
+        },
+        {
+            "name":"Viti-blog",
+            "description":"Tech Stack:  React, JavaScript, HTML, CSS",
+            "imgLink": "https://th.bing.com/th/id/OIP.z9I5vgs3Lo0JykQZ1z4eKwHaEK?w=307&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "gitHubLink": "https://github.com/ParasGarg2k/viti-blog",
+            "previewLink": "https://github.com/ParasGarg2k/viti-blog"
+        }
+       
     ]
 }
